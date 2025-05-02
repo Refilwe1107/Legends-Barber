@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-image: url('images/barberbackgroundimg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{ 
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position:absolute;
+    left:13%;
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159);
+    transition:.5s;
+}        
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: dancing script;
+    font-size: 50px;
+}
+
+.box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.box h2 {
+    color: #333;
+}
+
+.review {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+
+.box {
+    width: 40%; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+#about {
+    float: left; 
+    margin-left:20px; 
+    width: 500px;
+}
+
+
+h2 {
+    font-size: 1.5em; 
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5; 
+}
+
+
+#reviews {
+    clear: both; 
+    margin-top: 20px; 
+}
+
+
+.box {
+    width: 100%; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+}
+
+.review-box {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    float: right;
+    width: 800px;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .review-content {
+    flex: 1;
+  }
+  
+  .review-content h3 {
+    margin-top: 0;
+  }
+  
+  .review-content p {
+    margin-bottom: 0;
+}
+.review-box {
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease; 
+     height: 150px;
+     margin: 10px;
+}
+
+.review-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-5px); 
+    
+}
+
+
+
+.image-container {
+    width: 500px; 
+    height: 100px; 
+    background-image: url('result.png'); 
+    background-size:contain; 
+    background-position: center; 
+    margin-top:10px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  
+ 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+  .fa-instagram {
+    background: #d31464;
+    color: white;
+  }
+
+
+
+  .opinion-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f3f3f3; 
+    margin-bottom: 10px; 
+    float: right;
+}
+
+.business-hours-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 1000px; 
+    margin-bottom: 20px; 
+    text-align: center;
+    float: right;
+    border-radius: 10px;
+}
+
+.business-hours-container img {
+    max-width: 100%; 
+    margin-bottom: 15px; 
+    float: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+footer p {
+    margin: 0; 
+    font-size: 14px; 
+    color: #f7f0f0; 
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 40px;
+        margin: 5px 0;
+    }
+
+    #logo {
+        width: 150px;
+        height: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .review-box {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .business-hours-container {
+        width: 100%;
+        float: none;
+        padding: 15px;
+    }
+
+    .image-container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .opinion-heading {
+        font-size: 20px;
+    }
+}
+

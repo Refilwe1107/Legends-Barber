@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Appointment Booking Form</title>
+    <link rel="stylesheet" href="booking form.css" >
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <nav>
+      <img id="logo" src="logo.JPG" alt="barbers view logo" >
+
+      <ul>
+        <li><a href="HomePage.html"> Home</a></li>
+        <li><a href="Services.html"> Services</a></li>
+        <li><a href="Product.html"> Products</a></li>
+        <li><a href="policy.html"> Policy</a></li>
+        <li><a href="table.html"> Prices</a></li>
+        <li><a href="booking form.html" class="active"> Booking</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h2>Book an Appointment</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="faname">First Name:</label>
+          <input type="text" id="fname" name="faname" required />
+        </div>
+        <div class="form-group">
+          <label for="laname">Last Name:</label>
+          <input type="text" id="lname" name="laname" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="con">Your Contacts:</label>
+          <input type="tel" id="Tel" name="con" required />
+        </div>
+        <div class="form-group">
+          <label for="datetime">Preferred Date and Time:</label>
+          <input type="datetime-local" id="datetime" name="datetime" required />
+        </div>
+        <div>
+          <button type="button" onclick="sendwhatsapp();">
+            >>>>>Book Appointment<<<<<<
+          </button>
+        </div>
+      </form>
+    </div>
+    <script>
+      function sendwhatsapp() {
+        var phonenumber = "0619032149";
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var email = document.getElementById("email").value;
+        var con = document.getElementById("Tel").value;
+        var datetime = document.getElementById("datetime").value;
+        var url =
+          "https://wa.me/" +
+          phonenumber +
+          "?text=" +
+          "*First Name:* " +
+          fname +
+          "%0a" +
+          "*Last Name:* " +
+          lname +
+          "%0a" +
+          "*Email:* " +
+          email +
+          "%0a" +
+          "*Contacts:* " +
+          con +
+          "%0a" +
+          "*Date and Time:* " +
+          datetime +
+          "%0a" +
+          "This is an Appointment made!!";
+        window.open(url, "_blank").focus();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,560 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: url(booking\ background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:rgb(83, 83, 83);
+  }
+  h2 {
+    text-align: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="email"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #010101;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: black;
+  }
+  button{
+    text-align: center;
+    justify-content: center;
+  }
+  nav{ 
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block; 
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159);
+    transition:.5s;
+}        booking form.css
+
+
+body{
+    background:url(barberbackgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+
+}
+h2{
+    text-align: center;
+}
+nav{ 
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block; 
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159);
+    transition:.5s;
+}    
+.body{
+    background-color: rgb(107, 102, 102);
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Policy.css
+
+*{
+    padding :0;
+    margin:0;
+    text-decoration:none; 
+    list-style:none; 
+    box-sizing:border-box;
+}
+
+body{
+    font-family:montserrat;
+}
+
+nav{ 
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{ 
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px; 
+}
+
+nav ul li {
+    display: inline-block; 
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px; 
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159); 
+}      
+  
+.gallery{ 
+    display:inline-block;
+    margin:10px; 
+    transition:1s;
+    margin-left: 5%;
+    
+}
+
+.description{ 
+    padding:5px;
+    text-align:center;
+    color:white;
+}
+.gallery:hover{
+    transform:scale(1.2);
+    z-index: 2; 
+}
+#heading{
+    text-align:center; 
+    color:white;
+}
+body {
+    background-image: url("barberbackgroundimg.jpg");}
+
+
+
+
+
+
+
+
+ product.css
+
+*{
+ margin: 0;
+ padding :0;
+ text-decoration: none;
+ box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    
+}
+body{
+    font-family: 'Franklin Gothic Medium';
+    background-image: url('images/barberbackgroundimg.jpg'); 
+}
+nav{ 
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px; 
+}
+
+nav ul li {
+    display: inline-block; 
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159);
+    transition:.5s;
+}        
+
+
+#banner{
+    background: url(barberbackgroundimg.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    padding:15px ;
+    margin:0 auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 25px;
+    transition: 2s;
+
+    
+}
+ #banner img{
+    border-radius: 4px 18px;
+    box-shadow: 10px 20px;
+
+}
+
+
+.main{
+    padding: 0px;
+    margin: 40px;
+    border: 2px dotted lightskyblue;
+    border-radius: 50%;
+}
+.main a:hover{
+    transform:scale(1.7);
+    z-index: 3;
+}
+footer{
+    padding :relative;
+    background: url(animation.webp);
+    min-height: 200px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 ;
+    flex-wrap: wrap;
+}
+footer .social_icon li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px ;
+    display: inline-block;
+    transition: 0,5s;
+
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a {
+    font-size:1,2em ;
+    color: #fff;
+    margin: 0 10px ;
+    display: inline-block;
+    opacity: 0,7s;
+    text-decoration: none ;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color:#fff;
+    text-align:center ;
+    margin-top: 15px;
+    margin-bottom:10px ;
+    font-size: 1.1em;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #564f4f url(wave.png);
+    background-size: 100px 100px;
+
+}
+footer #wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 5s linear infinite ;
+} services.css
+
+.mytable{
+margin: 0 auto;
+border-collapse:collapse;
+background-image: url(barber\ Swirl.jpg) ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+th{
+    border: 2px solid black;
+}
+
+tr{
+text-align: left;
+border: 1px solid gray;
+padding-left: 10px;
+padding-top: 5px;
+}
+
+h1{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+}
+nav{ 
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block; 
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159);
+    transition:.5s;
+}
+
+nav {
+  position: relative;
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+nav ul {
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  nav ul {
+    max-height: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul.show {
+    max-height: 300px; /* Adjust as needed */
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+  }
+
+  .container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  nav ul {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+    line-height: 40px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+
+  #banner {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+
+  footer .social_icon li a {
+    font-size: 1.5em;
+  }
+
+  footer p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+    padding: 3px 8px;
+  }
+
+  footer .social_icon li a {
+    font-size: 1.2em;
+  }
+
+  footer p {
+    font-size: 0.9em;
+  }
+}
